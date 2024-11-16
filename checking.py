@@ -441,7 +441,7 @@ def main():
                     st.markdown(
                         f"""
                         <div>
-                            Hello, <span style='color: lightgreen; font-size: 20px;'>{st.session_state.user_info.get('display_name', 'Unknown')}</span><br>
+                            👋 Hello, <span style='color: lightgreen; font-size: 20px;'>{st.session_state.user_info.get('display_name', 'Unknown')}</span><br>
                             
                         </div>
                         """,
